@@ -166,12 +166,12 @@ def pay():
     yu.title("Payment")
     yu.geometry("500x500")
     yu.configure(bg="#0E21A0")
-    TWILIO_ACCOUNT_SID = "AC7d5da0a1ebec4725e410e566ea855070"
-    TWILIO_AUTH_TOKEN = "2fbb0061a1b94075d6d78fd6f12be660"
-    TWILIO_PHONE_NUMBER = "+13348010675"
+    TWILIO_ACCOUNT_SID = "To twilio account no"
+    TWILIO_AUTH_TOKEN = "Twilio auth token"
+    TWILIO_PHONE_NUMBER = "Twilio Phone Number"
     client=Client(TWILIO_ACCOUNT_SID,TWILIO_AUTH_TOKEN)
     otp=str(random.randint(1000, 9999))
-    to_phone_number = '+918925374397'
+    to_phone_number ="Your Phone Number"
     from_phone_number = '+13348010675'
     message_body = f' Your OTP is:  {otp}'
     message = client.messages.create (
