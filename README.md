@@ -1,0 +1,1 @@
+This Project is built using a Graphical User Interface with Python and SQL to store booking data. It is a useful tool for a simple movie booking project that helps users understand Python and SQL. Within the system, users can select movie timings and shows, and it generates an OTP through TWILLO.
